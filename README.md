@@ -1,6 +1,6 @@
 # Train Velocity Controller
 
-This is a sample application for the verification laboratory.
+This is AAAA sample application for the verification laboratory.
 
 ## Getting started
 
