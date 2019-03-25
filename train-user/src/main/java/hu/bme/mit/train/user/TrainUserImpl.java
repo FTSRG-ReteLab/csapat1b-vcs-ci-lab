@@ -10,6 +10,7 @@ public class TrainUserImpl implements TrainUser {
 
 	public TrainUserImpl(TrainController controller) {
 		this.controller = controller;
+		controller.setUpTimer();
 	}
 
 	@Override
@@ -27,5 +28,4 @@ public class TrainUserImpl implements TrainUser {
 		this.joystickPosition = joystickPosition;
 		controller.setJoystickPosition(joystickPosition);
 	}
-
 }
