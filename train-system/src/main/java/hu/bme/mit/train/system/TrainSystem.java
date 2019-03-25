@@ -26,4 +26,8 @@ public class TrainSystem {
 	public TrainUser getUser() {
 		return user;
 	}
+
+	public void Update(){
+		controller.followSpeed();
+	}
 }
